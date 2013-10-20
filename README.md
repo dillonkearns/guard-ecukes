@@ -1,4 +1,4 @@
-# Guard::Ecukes [![Build Status](https://secure.travis-ci.org/dillonkearns/guard-ecukes.png)](http://travis-ci.org/dillonkearns/guard-ecukes)
+# Guard::Ecukes [![Build Status](https://secure.travis-ci.org/dillonkearns/guard-ecukes.png)](http://travis-ci.org/dillonkearns/guard-ecukes) [![Coverage Status](https://coveralls.io/repos/dillonkearns/guard-ecukes/badge.png)](https://coveralls.io/r/dillonkearns/guard-ecukes)
 
 Guard::Ecukes allows you to automatically run [Ecukes](http://ecukes.info/) features when files are modified.
 

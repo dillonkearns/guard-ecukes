@@ -1,5 +1,8 @@
 require 'rspec'
 require 'guard/ecukes'
+require 'coveralls'
+
+Coveralls.wear!
 
 RSpec.configure do |config|
 

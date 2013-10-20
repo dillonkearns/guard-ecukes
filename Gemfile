@@ -4,6 +4,7 @@ gemspec
 
 gem 'rake'
 gem 'rspec'
+gem 'coveralls', require: false
 
 # The development group will no be
 # installed on Travis CI.
