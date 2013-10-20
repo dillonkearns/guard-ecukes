@@ -11,11 +11,9 @@ Gem::Specification.new do |s|
   s.summary     = 'Guard plugin for the Emacs Ecukes integration testing framework'
   s.description = 'Guard::Ecukes automatically runs your features (much like autotest)'
 
-  s.required_rubygems_version = '>= 1.3.6'
-
-  s.add_dependency 'guard',       '>= 1.1.0'
-
-  s.add_development_dependency 'bundler', '~> 1.1'
+  s.required_ruby_version          = '1.9.3'
+  s.required_rubygems_version      = '>= 1.3.6'
+  s.add_dependency 'guard',          '>= 1.1.0'
 
   s.files        = Dir.glob('{lib}/**/*') + %w[LICENSE README.md]
   s.require_path = 'lib'

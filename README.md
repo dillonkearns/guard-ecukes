@@ -2,32 +2,55 @@
 
 Guard::Ecukes allows you to automatically run [Ecukes](http://ecukes.info/) features when files are modified.
 
-Tested on MRI Ruby 1.8.7, 1.9.2, 1.9.3, REE and the latest versions of JRuby & Rubinius.
+Tested on MRI Ruby 1.9.3 and 2.0.0 (< 1.9.3 is not supported).
 
 If you have any questions please join us on our [Google group](http://groups.google.com/group/guard-dev) or on `#guard` (irc.freenode.net).
 
 ## Install
 
-The simplest way to install Guard is to use [Bundler](http://gembundler.com/).
-Please make sure to have [Guard](https://github.com/guard/guard) installed before continue.
+Install ruby (>= 1.9.3).
+Install [Guard](https://github.com/guard/guard) using [Bundler](http://gembundler.com/) by setting up your Gemfile and running bundle install:
 
-Add Guard::Ecukes to your `Gemfile`:
+Make sure bundler is installed:
 
 ```bash
-group :development do
-  gem 'guard-ecukes
-end
+$ gem install bundler
 ```
 
-Add the default Guard::Ecukes template to your `Guardfile` by running:
+Create a file called `Gemfile` in your project's root directory with the following:
+
+```ruby
+source 'https://rubygems.org'
+
+gem 'guard-ecukes'
+```
+
+Then, to install guard and guard-ecukes, simply run:
+```bash
+$ bundle install
+```
+
+Finally, add the default Guard::Ecukes template to your `Guardfile` by running:
 
 ```bash
 $ guard init ecukes
 ```
 
-## Usage
+You should now have 3 new files to commit to your repository:
+```bash
+$ git status -s
+?? Gemfile
+?? Gemfile.lock
+?? Guardfile
+```
 
-Please read the [Guard usage documentation](https://github.com/guard/guard#readme).
+Commit all of these, and you are done! Now you can run your tests with:
+
+```bash
+$ bundle exec guard  # add a [-c option](https://github.com/guard/guard#-c--clear-option) to clear the screen after each run
+```
+
+See the [Guard usage documentation](https://github.com/guard/guard#readme) for more information.
 
 ## Guardfile
 
