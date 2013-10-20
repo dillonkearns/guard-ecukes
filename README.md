@@ -1,4 +1,4 @@
-# Guard::Ecukes [![Build Status](https://secure.travis-ci.org/dillonkearns/guard-ecukes.png)](http://travis-ci.org/dillonkearns/guard-ecukes) [![Coverage Status](https://coveralls.io/repos/dillonkearns/guard-ecukes/badge.png)](https://coveralls.io/r/dillonkearns/guard-ecukes)
+# Guard::Ecukes [![Build Status](https://secure.travis-ci.org/dillonkearns/guard-ecukes.png)](http://travis-ci.org/dillonkearns/guard-ecukes) [![Coverage Status](https://coveralls.io/repos/dillonkearns/guard-ecukes/badge.png)](https://coveralls.io/r/dillonkearns/guard-ecukes) [![Dependency Status](https://gemnasium.com/dillonkearns/guard-ecukes.png)](https://gemnasium.com/dillonkearns/guard-ecukes) [![Code Climate](https://codeclimate.com/github/dillonkearns/guard-ecukes.png)](https://codeclimate.com/github/dillonkearns/guard-ecukes) [![Gem Version](https://fury-badge.herokuapp.com/rb/guard-ecukes.png)](http://badge.fury.io/rb/guard-ecukes)
 
 Guard::Ecukes allows you to automatically run [Ecukes](http://ecukes.info/) features when files are modified.
 
