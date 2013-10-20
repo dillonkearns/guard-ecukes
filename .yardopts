@@ -1,7 +1,7 @@
 --readme           README.md
 --markup           markdown
 --markup-provider  redcarpet
---title            'Guard::Cucumber Documentation'
+--title            'Guard::Ecukes Documentation'
 --hide-void-return
 --protected
 --private

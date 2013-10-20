@@ -1,0 +1,5 @@
+guard 'ecukes' do
+  watch(%r{^features/.+\.feature$})
+  watch(%r{^([^\/]*\.el|features/support/.+\.el)$})       { 'features' }
+  watch(%r{^features/step_definitions/(.+)_steps\.el$})   { |m| Dir[File.join("**/#{m[1]}.feature")][0] || 'features' }
+end

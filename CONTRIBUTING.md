@@ -1,10 +1,10 @@
-Contribute to Guard::Cucumber
+Contribute to Guard::Ecukes
 =============================
 
 File an issue
 -------------
 
-You can report bugs and feature requests to [GitHub Issues](https://github.com/netzpirat/guard-cucumber/issues).
+You can report bugs and feature requests to [GitHub Issues](https://github.com/dillonkearns/guard-ecukes/issues).
 
 **Please don't ask question in the issue tracker**, instead ask them on at Stack Overflow and use the
 [guard](http://stackoverflow.com/questions/tagged/guard) tag.
@@ -25,16 +25,16 @@ When you file a bug, please try to follow these simple rules if applicable:
 Development
 -----------
 
-* Documentation hosted at [RubyDoc](http://rubydoc.info/github/netzpirat/guard-cucumber/master/frames).
-* Source hosted at [GitHub](https://github.com/netzpirat/guard-cucumber).
+* Documentation hosted at [RubyDoc](http://rubydoc.info/github/dillonkearns/guard-ecukes/master/frames).
+* Source hosted at [GitHub](https://github.com/dillonkearns/guard-ecukes).
 
 Pull requests are very welcome! Please try to follow these simple rules if applicable:
 
 * Please create a topic branch for every separate change you make.
 * Make sure your patches are well tested. All specs run with `rake spec:portability` must pass.
 * Update the [Yard](http://yardoc.org/) documentation.
-* Update the [README](https://github.com/netzpirat/guard-cucumber/blob/master/README.md).
-* Update the [CHANGELOG](https://github.com/netzpirat/guard-cucumber/blob/master/CHANGELOG.md) for noteworthy changes.
+* Update the [README](https://github.com/dillonkearns/guard-ecukes/blob/master/README.md).
+* Update the [CHANGELOG](https://github.com/dillonkearns/guard-ecukes/blob/master/CHANGELOG.md) for noteworthy changes.
 * Please **do not change** the version number.
 
 For questions please join us in our [Google group](http://groups.google.com/group/guard-dev) or on

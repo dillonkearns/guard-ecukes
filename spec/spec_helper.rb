@@ -1,5 +1,5 @@
 require 'rspec'
-require 'guard/cucumber'
+require 'guard/ecukes'
 
 RSpec.configure do |config|
 
